@@ -1,0 +1,44 @@
+--- Estructura de Pryecto de apiRest
+
+** Carpetas a Crear 
+config => se configuran base de datos 
+controllers => se escribe toda la logica de negocio y acceso a bd
+models => se declaran los modelos a exponer y consumir
+    - nosql
+    - sql
+    - index.js (se definen los modelos a utilizar)
+routes => se definen las rutas - firmas get y post
+    - index.js => se define la configuracion dinamica de rutas
+    - [routes]
+
+storages => para uso de archivos
+utils => componentes reutilizables
+
+** Librerias a instalar
+
+"cors": "^2.8.5", => Uso de Cors para comunicacion de API
+"dotenv": "^16.4.2", => Uso de archivos de entorno
+"express": "^4.18.2", => Express para que se cree la aplicacion API
+"mongoose": "^6.2.4", => para el uso de db Mongo
+"mongoose-delete": => sirve para el borrado logico de la base de datos
+"multer": "^1.4.5-lts.1" => Manejo de Arhivos / Midleware
+"express-validator": "^7.0.1", => Validaciones de los Modelos
+
+** Archivos principales
+- App.js (inicio de aplicacion)
+- package.json (configuraciones de paquetes de app) - "npm init"
+- gitignore => para poder subir codigo fuente
+
+
+---- Mongo BD
+
+Proyect: Curso-Test
+DataBase: apiRest
+usuario: fsanchezsbot
+clave: kfkeoE8l9BkOpP5F
+
+dbUri:
+mongodb+srv://fsanchezsbot:kfkeoE8l9BkOpP5F@cluster0.rnlpugw.mongodb.net/dbapi?retryWrites=true&w=majority
+
+*************** json *************
+

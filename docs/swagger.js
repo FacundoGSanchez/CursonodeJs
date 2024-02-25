@@ -15,6 +15,9 @@ const swaggerDefinition = {
         {
           url: "http://localhost:3002/api",
         },
+        {
+          url: "https://cursonodejs-0s7a.onrender.com/",
+        },
     ],
     components:{
         securitySchemes:{
